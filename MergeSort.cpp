@@ -1,6 +1,16 @@
 #include <iostream>
 #include <vector>
 
+    /*
+
+    MD. RAFIULLAH AL NAIM
+    UNIVERSITY : UNIVERSITY OF ASIA PACIFIC
+    STUDENT ID : 22101150 (UAP,DHAKA,BANGLADESH)
+    COLLEGE : ADAMJEE CANTONMENT COLLEGE
+    STUDENT ID : 181063 (ACC,DHAKA,BANGLADESH)
+
+    */
+
 using namespace std;
 
 void merge(vector<int>& arr, int left, int mid, int right) {
