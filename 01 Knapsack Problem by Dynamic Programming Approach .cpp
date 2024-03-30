@@ -31,19 +31,21 @@ int knapsack(int m, int n, int p[], int wt[])
         {
             if(i==0 || w==0)
             {
-                k[i][w] = 0;
+                k[i][w] = 0; ///of k[][] = 0, since there is no profit when there are no items .
+
             }
             else if(wt[i]<=w) ///If the i-th item fits in the knapsack
             {
                 k[i][w] = max(k[i-1][w],p[i]+k[i-1][w-wt[i]]);  /// The maximum between these two values is going to be stored in k[i][w].
             }
-            else
+            else ///If the i-th item does not fit in the knapsack or if ( wt[i] >= w)
+
             {
                 k[i][w] =k[i-1][w];
             }
         }
     }
-    return k[n][m];
+    return k[n][m]; /// Maximum capacity m is stored in k[n][m].
 }
 
 int  main()
@@ -53,5 +55,5 @@ int  main()
     int w [n] = {0,2,3,4,5,6,7};
     int capacity = 10;
     int maxprofit = knapsack(capacity,n,p,w);
-    cout<<maxprofit<<endl;
+    cout << "The maximum value is : " << maxprofit<<endl;
 }
