@@ -29,7 +29,7 @@ int main()
 	string s2 = "GXTXAYB";
 	int m = s1.size();
 	int n = s2.size();
-    int ans = LCS(s1, s2, m, n) ;
+    	int ans = LCS(s1, s2, m, n) ;
 	cout << "Length of LCS is : " << ans ;
 
 	return 0;
