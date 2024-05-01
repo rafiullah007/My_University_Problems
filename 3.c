@@ -1,7 +1,16 @@
-#include <stdio.h>
-/* Minnatul Jannat Mimi
-   2212866643
-   */
+#include <iostream>
+using namespace std;
+
+    /*
+
+    MD. RAFIULLAH AL NAIM
+    UNIVERSITY : UNIVERSITY OF ASIA PACIFIC
+    STUDENT ID : 22101150 (UAP,DHAKA,BANGLADESH)
+    COLLEGE : ADAMJEE CANTONMENT COLLEGE
+    STUDENT ID : 181063 (ACC,DHAKA,BANGLADESH)
+
+    */
+
 double harmonicSum(int n) {
     double sum = 0.0;
     for (int i = 1; i <= n; i++) {
@@ -13,13 +22,12 @@ double harmonicSum(int n) {
 int main() {
     int n;
 
-    printf("Enter the number of terms: ");
-    scanf("%d", &n);
+    cout << "Enter the number of terms: ";
+    cin >> n;
 
     double sum = harmonicSum(n);
 
-    printf("Sum of the harmonic series up to %d terms: %lf\n", n, sum);
+    cout << "Sum of the harmonic series up to " << n << " terms: " << sum << std::endl;
 
     return 0;
 }
-
