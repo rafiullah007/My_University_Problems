@@ -27,7 +27,7 @@ int main() {
 
     double sum = harmonicSum(n);
 
-    cout << "Sum of the harmonic series up to " << n << " terms: " << sum << std::endl;
+    cout << "Sum of the harmonic series up to " << n << " terms: " << sum << endl;
 
     return 0;
 }
