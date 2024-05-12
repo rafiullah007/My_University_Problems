@@ -1,7 +1,13 @@
 #include <stdio.h>
-/* Minnatul Jannat Mimi
-   2212866643
-   */
+    /*
+
+    MD. RAFIULLAH AL NAIM
+    UNIVERSITY : UNIVERSITY OF ASIA PACIFIC
+    STUDENT ID : 22101150 (UAP,DHAKA,BANGLADESH)
+    COLLEGE : ADAMJEE CANTONMENT COLLEGE
+    STUDENT ID : 181063 (ACC,DHAKA,BANGLADESH)
+
+    */
 double getArea(int a, int b, int h) {
     double area;
     area = 0.5 * (a + b) * h;
